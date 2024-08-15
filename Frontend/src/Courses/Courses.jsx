@@ -4,20 +4,17 @@ import Footer from '../Components/Footer'
 import Course from '../Components/Course'
 
 
+
 function Courses() {
-  //  console.log(list);
   return (
-   <>
-   <Navbar/>
-   <div className='min-h-screen ' >
-    <Course/>
-   </div>
-
-   <Footer/>
-
-
-   </>
-  )
+    <>
+      <Navbar />
+      <div className=" min-h-screen dark:bg-slate-900 dark:text-white">
+        <Course />
+      </div>
+      <Footer />
+    </>
+  );
 }
 
-export default Courses
+export default Courses;
