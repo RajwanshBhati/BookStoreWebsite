@@ -3,16 +3,15 @@ import React from 'react'
 function Contact() {
   return (
    <>
-   <div className="carousel rounded-box">
-  <div className="carousel-item">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
-      alt="Burger" />
-  </div>
   
- 
+  <div className='font-size z-50 mt-22 mr-22 p-40 display-flex justify-center items-center'>
+    CONTACT US
+  </div>
+  <div>
+    <input type="text" placeholder='Name'/>
+    <input type="text" placeholder='Email ID' />
 
-</div>
+  </div>
 
 
    </>
